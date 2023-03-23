@@ -1,8 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   errors.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rnait-el <rnait-el@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/03/23 22:36:30 by rnait-el          #+#    #+#             */
+/*   Updated: 2023/03/23 22:37:54 by rnait-el         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
 
 int	error_handling(int argc, char **argv, t_main *main)
 {
-	
 	if (init_input_struct(argc, argv, main) == 0)
 	{
 		printf("%s\n", NUM_ARGS);
